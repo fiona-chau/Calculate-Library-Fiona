@@ -3,7 +3,7 @@
 // @ version: 9/6
 public class Calculate {
 	
-	public int square(int number)
+	public static int square(int number)
 	{
 	return number*number;	
 	}
