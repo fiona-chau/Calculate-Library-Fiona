@@ -6,7 +6,7 @@ public class DoMath {
 	//client code: uses other code
 	public static void main(String[] args) {
 	System.out.println(Calculate.Square(-3));
-
+	System.out.println(Calculate );
 	}
 
 }
