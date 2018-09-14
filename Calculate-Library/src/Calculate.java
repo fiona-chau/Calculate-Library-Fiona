@@ -27,9 +27,25 @@ public class Calculate {
 	return (number2*number2)-(4*number1*number3);
 	}
 	//converts mixed number into improp fraction. accepts 3 integers and returns a string
-	public static String toImproperFrac (double number1, double number2, double number3) {
-	return ((number1*number3+number2)/"/"number3);
+	public static int toImproperFrac (int number1, int number2, int number3) {
+	System.out.println((number1*number3+number2)/ + "/" + number3);
+	} 
+	//converts improper fraction into mixed number, accepts 2 integers and returns string
+	public static int toMixedNum(int numerator, int denominator) {
+	System.out.println(numerator/denominator + "_" + (numerator%denominator) + "/" + denominator);
 	}
-	//converts 
+	//converts bionomial multiplication into quadratic equation, accepts 4 integers and a String, returns string
+	public static int foil(int a, int b, int c, int d, int x) {
+	return ();
+	}
+	//accepts two integers and returns boolean
+	public static int isDivisibleBy(int number1, int number2) {
+	return 
+	}
+	//returns absolute value of number passes, accepts double, returns double
+	public static double absValue(double number) {
+	return +number;
+	}
+	//returns larger of the values passed, accepts 2 doubles and returns a double 
 	
 }
